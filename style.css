@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    font-family: 'Overpass', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box {
+    width: 290px;
+    min-height: 500px;
+    border-radius: 10px;
+    background-image: url('img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 21px;
+}
+.box__header {
+}
+.box__form {
+}
+.box__select {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+}
+option{
+    font-size: 12px;
+    color: #000;
+}
+.box__hero {
+}
+.box__icon {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    width: 180px;
+    height: 140px;
+}
+.box__icon-img {
+    width: 180px;
+    height: 140px;  
+}
+.box__inner {
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px 60px;
+    padding-bottom: 18px;
+    position: relative;
+    background-color: transparent;
+    z-index: 7;
+}
+.info__inner{
+    background: rgba(255, 255, 255,0.4);
+    filter: blur(3.5px);
+    border-radius: 14px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.info__date {
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;    
+    text-shadow: -1px 2px 0.7px rgba(0, 0, 0, 0.1);
+}
+.info__celcius {
+    font-size: 70px;
+    line-height: 90px;
+    color: #fff;
+    text-shadow: -3px 6px 35px rgba(0, 0, 0, 0.1);
+}
+.info__weather {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: -1px 2px 0.7px rgba(0, 0, 0, 0.1);
+}
+.info__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.info__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    text-shadow: -1px 2px 0.7px rgba(0, 0, 0, 0.1);
+}
+.info_sp{
+    margin: 0 15px;
+}
+.info__title {
+}
+.bx {
+}
+.bx-wind {
+}
+.info__text {
+}
+.bx-droplet {
+}
