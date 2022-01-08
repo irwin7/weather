@@ -20,7 +20,7 @@ function logWeather(country){
             document.querySelector('.box__icon-img').src = `img/icons/${data.weather[0].icon}.svg`;
             document.querySelector('.info__celcius').textContent = `${Math.floor(data.main.temp - 273,15)}℃`;
             document.querySelector('.info__weather').textContent = `${data.weather[0].main}`;
-            document.querySelector('.info__text').textContent = `${Math.floor(data.wind.speed)} km/h`;
+            document.querySelector('.info__text').textContent = `${Math.floor(data.wind.speed)} m/h`;
         })
 }
 

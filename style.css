@@ -32,10 +32,6 @@ body{
     overflow: hidden;
     padding: 21px;
 }
-.box__header {
-}
-.box__form {
-}
 .box__select {
     background-color: transparent;
     border: none;
@@ -46,8 +42,6 @@ body{
 option{
     font-size: 12px;
     color: #000;
-}
-.box__hero {
 }
 .box__icon {
     display: inline-block;
@@ -61,8 +55,6 @@ option{
 .box__icon-img {
     width: 180px;
     height: 140px;  
-}
-.box__inner {
 }
 .info {
     display: flex;
@@ -127,14 +119,4 @@ option{
 }
 .info_sp{
     margin: 0 15px;
-}
-.info__title {
-}
-.bx {
-}
-.bx-wind {
-}
-.info__text {
-}
-.bx-droplet {
 }
